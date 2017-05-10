@@ -1,0 +1,31 @@
+/*common*/
+.content_wrapper{width:1030px; margin: 0 auto; overflow: hidden; position: relative}
+
+/*header*/
+header{width:100%; z-index: 10000; top:0px; position: absolute}
+#header_bg{width:100%; height: 140px;}
+#top_mini{width:100%; height:40px; background-color:#ebebeb;}
+#top{height:100px; background-color:#fff; overflow: hidden; border-bottom: 1px solid #ccc;}
+#top.fix{z-index: 10000; top:0px; position: fixed; width:100%; }
+#top_menu{line-height: 100px; float:right; margin: 0 auto; list-style: none; text-decoration: none; padding: 0px;}
+#top_menu > li{float:left; margin-left:50px; font-size:16px; font-family: "Malgun Gothic"; font-weight: bold; text-align: right;}
+#top_menu > li> .sub_menu{list-style: none; padding: 0px;}
+#top_menu > li> .sub_menu > li{height:30px; line-height:30px; font-size: 12px; font-weight:normal;}
+#top_menu > li >a, .sub_menu > li > a{text-decoration: none; color:#000;}
+#top_menu > li >a:hover, .sub_menu > li > a:hover{color:#1a99d5; text-decoration: none;}
+
+#phone_num{width:269px; height: 40px; float:right; font-size:24px;
+    font-family:"Malgun Gothic"; font-weight: bold; line-height:35px; text-align:center; color:#fff; background:url("../img/phone_num_bg.png");}
+#sb_logo{margin-top: 20px;}
+
+/*footer*/
+footer{height:168px; overflow: hidden}
+footer > .content_wrapper > ul{overflow: hidden; margin:35px 0px 10px 0px; letter-spacing: -1px; list-style: none; padding: 0px;}
+footer > .content_wrapper > ul > li{float:left;}
+footer > .content_wrapper > ul > li > a{float:left; color:#333366; font-family: "Malgun Gothic"; font-size:13px; font-weight: bold; text-decoration: none; line-height: 27px;}
+footer > .content_wrapper > p{font-family: "Malgun Gothic"; font-size: 12px; letter-spacing: -1px; color:#666; height: 20px; margin: 0px;}
+
+.pipe{display:inline-block; padding:0px 10px; font-size:12px; line-height: 10px; color:#ccc; line-height: 27px;}
+#family_site{position: absolute; top:35px; right:0px;}
+#site_box{border:1px #ccc solid; width: 180px; height: 30px; line-height:30px; float:left; font-family: "Malgun Gothic"; padding-left:10px; color:#999; font-size:12px; font-weight: bold; letter-spacing: -1px;}
+#go_btn{height: 30px; width: 30px; line-height: 30px; color:#fff; background-color: #12a8d9; display: inline-block; text-align: center; text-decoration: none; margin-left: 5px; font-family: "Malgun Gothic"; font-size:12px;}

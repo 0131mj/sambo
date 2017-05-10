@@ -1,0 +1,37 @@
+/*main*/
+#main_bnr{max-height:600px; background-color:#0A246A; margin: 0px; padding: 0px; list-style: none;}
+#main_bnr > li {margin:0px; padding: 0px; width:100%; height:600px; display: block; }
+
+
+#examples{height:410px; overflow:hidden; background:url("../img/example_bg.jpg") 50% 0px no-repeat rgb(255, 255, 255); display: block;}
+#examples_title{text-align:center; font-family:"Malgun Gothic"; font-size: 32px; font-weight:normal; color:#000; margin-bottom: 25px; margin-top:5px; letter-spacing: -2px;}
+#examples > .content_wrapper > ul {list-style: none; padding:0px;}
+#examples > .content_wrapper > ul > li {margin-right: 36px;}
+#examples > .content_wrapper > ul > li:last-child {margin-right: 0px;}
+#examples > .content_wrapper > .p_icon {background: url("../img/parallelogram_icon.png") no-repeat; width: 24px; height:15px; margin: 40px auto 5px auto;}
+
+.example{float:left; height:220px;}
+.example >a {text-decoration: none;}
+.example_img{width: 230px;}
+.example_topic{margin-top: 5px; text-align:center; font-family:"Malgun Gothic"; font-size: 12px; color:#000; text-decoration: none; letter-spacing: -1px;}
+
+#tile_menu{height: 399px; border-top:1px solid #ddd; border-bottom:1px solid #ddd; background:url("../img/horizon_line.png") 0px 50% repeat-x;}
+#tile_bnr_wrapper{position: absolute; width:430px;}
+#tile_bnr{max-width: 430px; height: 400px; margin: 0px; padding:0px; list-style: none; display: block; left:0px;}
+
+#tile_link{width:600px; overflow:hidden; list-style:none; padding: 0px; margin:0px 0px 0px 430px;}
+#tile_link > li{width:298px; height:199px; border-right:1px solid #ddd; float:left;}
+#tile_link > li > a{display:inline-block; width:298px; height:200px;}
+
+.tile_upper{border-bottom:1px solid #ddd;}
+
+#bottom_menu_wrapper{height:210px; overflow:hidden; background:url("../img/bottom_menu.png") 50% 0px no-repeat rgb(255, 255, 255); display: block;}
+#bottom_menu{list-style: none; padding: 0px;}
+#bottom_menu > li{float:left; font-size:16px; font-family: "Malgun Gothic"; font-weight: bold; border-left: 1px solid rgba(255, 255, 255, .2);
+    width:124px; padding-left:40px; padding-right:40px;  height:180px; margin-top:10px;}
+#bottom_menu > li> .sub_menu{list-style-image: url('../img/list_icon.png'); color:#fff; padding-left: 0px; margin-left:20px;}
+#bottom_menu > li> .sub_menu > li{height:25px; line-height:25px; font-size: 13px; font-weight:normal; color:#fff;}
+#bottom_menu > li> a{height:60px; line-height:50px; text-decoration: none; color:#fff;}
+#bottom_menu > li> .sub_menu > li > a{text-decoration: none; color:#fff;}
+#bottom_menu > li >a:hover, #bottom_menu > li> .sub_menu > li > a:hover{color:#fff; text-decoration: none;}
+#bottom_menu > li:last-child{border-right: 1px solid rgba(255, 255, 255, .2);}
