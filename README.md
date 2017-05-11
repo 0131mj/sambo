@@ -1,3 +1,4 @@
-# sambo
-삼보토건퍼블리싱페이지
+# 삼보토건-퍼블리싱페이지
+## 2017년 3월 31일
+### HTML, CSS, JavaScript
 http://sambotogun.com/main.php
